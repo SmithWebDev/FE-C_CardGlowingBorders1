@@ -31,6 +31,16 @@ body {
     bottom: -2px;
     background: #ffffff;
     z-index: -1; }
+  .box:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #ffffff;
+    z-index: -1;
+    filter: blur(40px); }
   .box .glass {
     position: absolute;
     top: 0;
